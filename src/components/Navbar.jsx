@@ -19,7 +19,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    // { name: "Projects", path: "/projects" },
+    { name: "Projects", path: "/projects" },
     { name: "Contact", path: "/contact" },
   ];
 

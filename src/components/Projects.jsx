@@ -24,105 +24,82 @@ const Projects = () => {
   }, []);
 
   const projects = [
-    {
-      id: 1,
-      title: "Spotify Website Clone",
-      description:
-        "Interactive music streaming interface with Spotify API integration and curated playlists",
-      longDescription:
-        "Developed an interactive user interface for seamless navigation and an enhanced user experience. Integrated Spotify API to access music data and functionalities within the app. Demonstrated proficiency in front-end technologies and a passion for creating engaging web applications. Customised the app by adding a curated list of favourite songs, showcasing a keen understanding of user preferences.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Spotify API",
-        "Responsive Design",
-      ],
-      liveUrl: "#",
-      githubUrl: "#", // Add your actual GitHub repository link
-      category: "Frontend",
-      featured: true,
-    },
+    // {
+    //   id: 1,
+    //   title: "Student Management System",
+    //   description: "A web app for managing student data and academic records.",
+    //   longDescription:
+    //     "This system allows admin users to manage students, courses, grades, and related information. Built as a CRUD-based application with a clean UI.",
+    //   image: "/student-management.jpg",
+    //   technologies: ["HTML", "CSS", "JavaScript"],
+    //   liveUrl: "#",
+    //   githubUrl: "#",
+    //   category: "Academic Project",
+    //   date: "2024-06-15",
+    //   featured: true,
+    // },
+
     {
       id: 2,
-      title: "Windows 11 Simulation",
+      title: "Green Earth Infrastructure",
       description:
-        "Dynamic, interactive Windows 11 operating system simulation with authentic UI/UX",
+        "A business website for an infrastructure company, showcasing services and portfolio.",
       longDescription:
-        "Developed a dynamic, interactive Windows 11 operating system simulation using HTML, CSS, and JavaScript, demonstrating profound knowledge in front-end development and user interface design. Implemented key features such as the start menu, taskbar, system settings, and file explorer, focusing on mirroring the look and feel of Windows 11 to provide an immersive user experience.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "UI/UX Design",
-        "DOM Manipulation",
-      ],
-      liveUrl: "#",
-      githubUrl: "#", // Add your actual GitHub repository link
-      category: "Frontend",
-      featured: true,
+        "A responsive business website built with modern JavaScript and HTML/CSS, designed to showcase the services, projects, and contact details for Green Earth Infrastructure. It includes a project gallery, inquiry form, and SEO-optimized structure.",
+      image: "/images/113.png",
+      liveUrl: "https://www.greenearthinfrastructure.com/",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      githubUrl: "https://github.com/Jatin-Purohit/green-earth-infrastructure",
+      category: "Client Project",
+      date: "2024-09-01",
+      featured: false,
     },
     {
       id: 3,
-      title: "Flipkart Website Clone",
+      title: "Digital Marketing Website",
       description:
-        "Full-scale replica of the Flipkart e-commerce website with responsive design",
+        "A marketing agency website designed for lead generation and branding.",
       longDescription:
-        "Developed a full-scale replica of the Flipkart e-commerce website using HTML and CSS. I have demonstrated proficiency in front-end development by closely mimicking the original website's layout, styling, and functionality. The project showcases attention to detail in recreating complex layouts, product grids, navigation systems, and responsive design principles.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: [
-        "HTML",
-        "CSS",
-        "Responsive Design",
-        "Flexbox",
-        "Grid Layout",
-      ],
-      liveUrl: "#",
-      githubUrl: "#", // Add your actual GitHub repository link
-      category: "Frontend",
+        "This project is a professional website built for a digital marketing firm, focusing on service promotion, lead capture, and responsive design. The UI is built using JavaScript and styled with clean, modern CSS layouts.",
+      image: "/images/114.png",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      liveUrl: "https://digital-marketing-website-sepia.vercel.app/",
+      githubUrl: "https://github.com/Jatin-Purohit/Digital-Marketing-Website",
+      category: "Client Project",
+      date: "2024-09-01",
+      featured: false,
+    },
+
+    {
+      id: 4,
+      title: "Mahavir Surgical & Chemicals",
+      description:
+        "A corporate website for a surgical and chemical supply business.",
+      longDescription:
+        "This is a business website created to represent a supplier of surgical and chemical products. It includes service listings, company background, and inquiry forms. Built with HTML, CSS, and vanilla JavaScript.",
+      image: "/images/115.png",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      liveUrl: "https://mahavir-surgical-and-chemiclas.vercel.app/",
+      githubUrl:
+        "https://github.com/Jatin-Purohit/mahavir-surgical-and-chemiclas",
+      category: "Client Project",
+      date: "2024-08-04",
       featured: true,
     },
     {
-      id: 4,
-      title: "Zoho CRM Applications",
-      description:
-        "Custom enterprise applications and automation using Zoho Creator and CRM",
-      longDescription:
-        "Developed and customized applications using Zoho Creator and Zoho CRM during my internship at Zonexity. Collaborated on internal tools and automation to improve workflow efficiency. Gained practical experience in cloud software and enterprise-level development. Created custom workflows, automated business processes, and integrated various Zoho applications to streamline operations.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: [
-        "Zoho Creator",
-        "Zoho CRM",
-        "Automation",
-        "Cloud Computing",
-        "Workflow Design",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Backend",
-      featured: false,
-    },
-    {
       id: 5,
-      title: "AiMantra Web Interfaces",
+      title: "Jatin's Portfolio",
       description:
-        "Responsive web interfaces using Next.js, Tailwind CSS, and modern web technologies",
+        "My personal portfolio website showcasing skills and projects.",
       longDescription:
-        "Built responsive and engaging web interfaces using Next.js, Tailwind CSS, CSS and JavaScript at AiMantra. Collaborated with design and backend teams to create seamless user experiences. Improved website performance and contributed to UI/UX enhancements. Worked on multiple client projects, implementing modern design patterns and ensuring cross-browser compatibility.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: [
-        "Next.js",
-        "Tailwind CSS",
-        "JavaScript",
-        "UI/UX",
-        "Performance Optimization",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Full Stack",
-      featured: false,
+        "A clean and professional portfolio site to highlight my front-end development skills, resume, and key projects. Built with responsive design in mind.",
+      image: "/images/112.png",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      liveUrl: "https://portfolio-green-six-75.vercel.app/",
+      githubUrl: "https://github.com/Jatin-Purohit/Jatin-sPortfolio",
+      category: "Personal Project",
+      date: "2024-07-28",
+      featured: true,
     },
   ];
 

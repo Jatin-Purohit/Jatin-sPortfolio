@@ -13,169 +13,81 @@ const ProjectsPage = () => {
   }, []);
 
   const projects = [
-    {
-      id: 1,
-      title: "E-Commerce Platform",
-      description:
-        "A comprehensive e-commerce solution with modern features and seamless user experience.",
-      longDescription:
-        "A full-featured e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, payment processing with Stripe, order management, and admin dashboard.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Stripe",
-        "Tailwind CSS",
-        "Express",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Full Stack",
-      date: "2023-12-15",
-      featured: true,
-    },
+    // {
+    //   id: 1,
+    //   title: "Student Management System",
+    //   description: "A web app for managing student data and academic records.",
+    //   longDescription:
+    //     "This system allows admin users to manage students, courses, grades, and related information. Built as a CRUD-based application with a clean UI.",
+    //   image: "/student-management.jpg",
+    //   technologies: ["HTML", "CSS", "JavaScript"],
+    //   liveUrl: "#",
+    //   githubUrl: "#",
+    //   category: "Academic Project",
+    //   date: "2024-06-15",
+    //   featured: true,
+    // },
+
     {
       id: 2,
-      title: "Task Management App",
+      title: "Green Earth Infrastructure",
       description:
-        "A collaborative task management application with real-time updates and team features.",
+        "A business website for an infrastructure company, showcasing services and portfolio.",
       longDescription:
-        "A modern task management application that enables teams to collaborate effectively. Features include real-time updates using WebSockets, drag-and-drop functionality, team collaboration, file attachments, and detailed analytics.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: [
-        "React",
-        "Firebase",
-        "Material-UI",
-        "WebSocket",
-        "Chart.js",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Frontend",
-      date: "2023-11-20",
-      featured: true,
+        "A responsive business website built with modern JavaScript and HTML/CSS, designed to showcase the services, projects, and contact details for Green Earth Infrastructure. It includes a project gallery, inquiry form, and SEO-optimized structure.",
+      image: "/images/113.png",
+      liveUrl: "https://www.greenearthinfrastructure.com/",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      githubUrl: "https://github.com/Jatin-Purohit/green-earth-infrastructure",
+      category: "Client Project",
+      date: "2024-09-01",
+      featured: false,
     },
     {
       id: 3,
-      title: "Weather Dashboard",
+      title: "Digital Marketing Website",
       description:
-        "A beautiful weather dashboard with location-based forecasts and interactive maps.",
+        "A marketing agency website designed for lead generation and branding.",
       longDescription:
-        "An elegant weather dashboard that provides detailed weather information and forecasts. Features include location-based weather data, 7-day forecasts, interactive maps, weather alerts, and beautiful data visualizations.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: ["Vue.js", "Chart.js", "Weather API", "CSS3", "Leaflet"],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Frontend",
-      date: "2023-10-10",
+        "This project is a professional website built for a digital marketing firm, focusing on service promotion, lead capture, and responsive design. The UI is built using JavaScript and styled with clean, modern CSS layouts.",
+      image: "/images/114.png",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      liveUrl: "https://digital-marketing-website-sepia.vercel.app/",
+      githubUrl: "https://github.com/Jatin-Purohit/Digital-Marketing-Website",
+      category: "Client Project",
+      date: "2024-09-01",
       featured: false,
     },
+
     {
       id: 4,
-      title: "Social Media API",
+      title: "Mahavir Surgical & Chemicals",
       description:
-        "RESTful API for a social media platform with comprehensive authentication and features.",
+        "A corporate website for a surgical and chemical supply business.",
       longDescription:
-        "A robust RESTful API for a social media platform. Features include user authentication and authorization, post creation and management, real-time messaging, friend connections, image uploads, and comprehensive API documentation.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: [
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "JWT",
-        "Swagger",
-        "Redis",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Backend",
-      date: "2023-09-05",
-      featured: false,
-    },
-    {
-      id: 5,
-      title: "Real-time Chat Application",
-      description:
-        "Feature-rich chat application with rooms, file sharing, and modern UI.",
-      longDescription:
-        "A comprehensive real-time chat application built with modern technologies. Features include multiple chat rooms, private messaging, file sharing, emoji support, user presence indicators, message history, and responsive design.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: [
-        "React",
-        "Socket.io",
-        "Node.js",
-        "MongoDB",
-        "Tailwind CSS",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Full Stack",
-      date: "2023-08-15",
+        "This is a business website created to represent a supplier of surgical and chemical products. It includes service listings, company background, and inquiry forms. Built with HTML, CSS, and vanilla JavaScript.",
+      image: "/images/115.png",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      liveUrl: "https://mahavir-surgical-and-chemiclas.vercel.app/",
+      githubUrl:
+        "https://github.com/Jatin-Purohit/mahavir-surgical-and-chemiclas",
+      category: "Client Project",
+      date: "2024-08-04",
       featured: true,
     },
     {
-      id: 6,
-      title: "Portfolio CMS",
+      id: 5,
+      title: "Jatin's Portfolio",
       description:
-        "Content management system for portfolio websites with drag-and-drop builder.",
+        "My personal portfolio website showcasing skills and projects.",
       longDescription:
-        "A flexible CMS designed specifically for portfolio websites. Features include drag-and-drop page builder, template system, SEO optimization, analytics integration, and multi-language support.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: [
-        "Next.js",
-        "Prisma",
-        "PostgreSQL",
-        "Tailwind CSS",
-        "Vercel",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Full Stack",
-      date: "2023-07-20",
-      featured: false,
-    },
-    {
-      id: 7,
-      title: "Expense Tracker",
-      description:
-        "Personal finance management app with budgeting and analytics features.",
-      longDescription:
-        "A comprehensive expense tracking application that helps users manage their finances. Features include expense categorization, budget planning, financial analytics, receipt scanning, and export functionality.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: [
-        "React Native",
-        "Firebase",
-        "Chart.js",
-        "Expo",
-        "AsyncStorage",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Mobile",
-      date: "2023-06-10",
-      featured: false,
-    },
-    {
-      id: 8,
-      title: "Learning Management System",
-      description:
-        "Educational platform with course management and interactive learning features.",
-      longDescription:
-        "A modern learning management system for educational institutions. Features include course creation, student enrollment, progress tracking, interactive quizzes, video streaming, and certification system.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Socket.io",
-        "AWS S3",
-        "Stripe",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Full Stack",
-      date: "2023-05-25",
+        "A clean and professional portfolio site to highlight my front-end development skills, resume, and key projects. Built with responsive design in mind.",
+      image: "/images/112.png",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      liveUrl: "https://portfolio-green-six-75.vercel.app/",
+      githubUrl: "https://github.com/Jatin-Purohit/Jatin-sPortfolio",
+      category: "Personal Project",
+      date: "2024-07-28",
       featured: true,
     },
   ];
@@ -324,6 +236,7 @@ const ProjectsPage = () => {
                     <div className="flex space-x-4">
                       <a
                         href={project.liveUrl}
+                        target="blank"
                         className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-medium hover:scale-105 transform transition-all duration-200 text-sm"
                       >
                         <ExternalLink className="w-4 h-4" />
