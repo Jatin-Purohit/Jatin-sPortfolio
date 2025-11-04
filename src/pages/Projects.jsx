@@ -27,6 +27,21 @@ const ProjectsPage = () => {
     //   date: "2024-06-15",
     //   featured: true,
     // },
+    {
+      id: 1,
+      title: "Niantra Infrastructure",
+      description:
+        "A business website for an infrastructure company, showcasing services and portfolio.",
+      longDescription:
+        "A responsive business website built with modern JavaScript and HTML/CSS, designed to showcase the services, projects, and contact details for Green Earth Infrastructure. It includes a project gallery, inquiry form, and SEO-optimized structure.",
+      image: "/images/116.png",
+      liveUrl: "https://niantra-infrastructure.vercel.app/",
+      technologies: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwind"],
+      githubUrl: "https://github.com/Jatin-Purohit/NiAntra-infrastructure",
+      category: "Client Project",
+      date: "2024-11-04",
+      featured: false,
+    },
 
     {
       id: 2,
@@ -37,7 +52,7 @@ const ProjectsPage = () => {
         "A responsive business website built with modern JavaScript and HTML/CSS, designed to showcase the services, projects, and contact details for Green Earth Infrastructure. It includes a project gallery, inquiry form, and SEO-optimized structure.",
       image: "/images/113.png",
       liveUrl: "https://www.greenearthinfrastructure.com/",
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwind"],
       githubUrl: "https://github.com/Jatin-Purohit/green-earth-infrastructure",
       category: "Client Project",
       date: "2024-09-01",
