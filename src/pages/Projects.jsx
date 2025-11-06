@@ -29,6 +29,22 @@ const ProjectsPage = () => {
     // },
     {
       id: 1,
+      title: "AiMantra IT Solutions",
+      description:
+        "A professional business website for an IT company, showcasing technology services and digital solutions.",
+      longDescription:
+        "A modern, responsive website built for AiMantra IT Solutions to highlight their range of IT and digital transformation services. The site features a service portfolio, client testimonials, and a contact section with inquiry support. Developed using Next.js and Tailwind CSS, it ensures performance, scalability, and SEO optimization.",
+      image: "/images/117.png",
+      liveUrl: "https://aimantra-co.vercel.app/",
+      technologies: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwind"],
+      githubUrl: "https://github.com/Jatin-Purohit/",
+      category: "Client Project",
+      date: "2025-11-06",
+      featured: true,
+    },
+
+    {
+      id: 2,
       title: "Niantra Infrastructure",
       description:
         "A business website for an infrastructure company, showcasing services and portfolio.",
